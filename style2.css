@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: #333;
+    color: #eaeaea;
+
+}
+h1{
+    padding: 15rem 0;
+    padding-bottom: 0;
+    text-transform: uppercase;
+
+}
+p{
+    padding: 1.6rem 0;
+}
+a{
+    text-decoration: none;
+
+}
+h2{
+    text-transform: capitalize;
+}
+h3{
+    padding: 1.6rem 0;
+    text-transform: capitalize;
+}
+img{
+    height: auto;
+    width: 100%;
+
+}
+
+header{
+    height: 45rem;
+}
+header .bg-img{
+    position: absolute;
+    width: 100%;
+    height: 45rem;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+header .btn{
+    display: inline-block;
+    background-color: #333;
+    color: #eaeaea;
+    padding: 1.5rem 1.5rem;
+    border: 1px solid #eaeaea;
+    transition: all 0.7s;
+
+}
+header .btn:hover{
+
+    background-color:#eaeaea;
+    color: #333;
+    border: 1px solid #333;
+}
+/*section-a*/
+#section-a{
+    background-color: #ffffff;
+    color: #333;
+    padding: 1.5rem 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    transition: all 0.5s;
+}
+#section-a:hover{
+    box-shadow: 1px 1px 25px #eaeaea;
+
+
+}
+/*section-b*/
+#section-b{
+padding: 1.5rem 1.5rem;
+}
+ul li{
+    list-style: none;
+}
+.col-content{
+    background-color: #ffffff;
+    color: #333;
+    padding: 0 1.5rem;
+}
+.col{
+    margin: 1.5rem 1rem;
+    transition: all 0.5s;
+}
+.col:hover{
+    box-shadow: 1px 1px 25px #eaeaea;
+}
+
+/*section-c*/
+#section-c{
+
+    padding: 5rem;
+}
+/*section-d*/
+#section-d{
+    background-color: #333;
+    color: #eaeaea;
+}
+#section-d .box:first-child{
+    background-color: rgb(42, 72, 189);
+}
+#section-d .box{
+    padding:5rem;
+    transition: all 0.5s;
+}
+#section-d .box:hover{
+opacity: 0.3;
+}
+.footer{ 
+    background-color: #eaeaea;
+    color:#333
+
+}
+@media screen and (min-width:800px) {
+    html{
+        font-size: 12px;
+    }
+    ul li{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    ul li:last-child{
+        width: auto;
+    }
+    #section-d .box{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    .box:last-child{
+        background-color: #5e5e5e;
+    }
+
+
+    
+}
+@media screen and (min-width:1200px) {
+    html{
+        font-size: 15px;
+    }
+    ul li{
+        width: 33.33%;
+        height: auto;
+        float: left;
+    }
+    ul li:last-child{
+        width: 33.33%;
+    }
+}
